@@ -1,0 +1,19 @@
+.sushi {
+   background: red; 
+   color: white; 
+   font-size: 32px;
+   text-align: center;
+   font-weight: bold;
+}
+
+#sushi-ingredients {
+    background: green;
+    color:white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.btn-success {
+   background: orange; 
+   font-size: 18px;
+}
