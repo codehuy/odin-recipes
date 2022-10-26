@@ -1,19 +1,65 @@
-.sushi {
-   background: red; 
-   color: white; 
-   font-size: 32px;
-   text-align: center;
-   font-weight: bold;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-#sushi-ingredients {
-    background: green;
-    color:white;
-    text-align: center;
-    font-size: 18px;
+/* ============================== Header =================================== */
+.head {
+  padding: 30px 10%;
+  background-color: #1f2937;
+  color: white;
+  align-self: stretch;
+  justify-content: space-around;
 }
 
-.btn-success {
-   background: orange; 
-   font-size: 18px;
+.logo {
+font-size: 48px; 
+padding-top: 20px;
+flex-grow: 2;
+justify-content: space-around;
+text-align: center;
 }
+
+/* ============================== Main Content =================================== */
+ .parent {
+   height: auto;
+   display: grid;
+   grid-gap: 1rem;
+   grid-template-columns: repeat(3, 1fr);
+   justify-content: space-around;
+ }
+
+ .visual {
+   height: 100px;
+   width: 100%;
+ }
+
+ .visual img {
+  border-radius: 15px;
+ }
+
+ .card {
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   padding-bottom: 200px;
+   margin: 20px;
+   justify-content: space-between;
+   border: 3px solid rgb(54, 163, 54);
+   border-radius: 15px;
+ }
+
+ h3 {
+   margin: 0
+ }
+
+ h3 a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: #1f2937; 
+}
+
+h3 a:hover {
+  color: #3882f6;
+} 
